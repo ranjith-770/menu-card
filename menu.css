@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7AE2CF;
+}
+#head{
+    display: flex;
+    background-color:#FFE52A;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+}
+.hotel{
+    color: brown;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.img img{
+    border-radius: 50%;
+}
+.about a{
+    text-decoration: none;
+    padding: 0px 10px; 
+    margin-left: 20px;
+}
+.icon{
+    margin: 0px 70px;
+}
+.card{
+    display: flex;
+    border: none;
+    width: 900px;
+    padding: 50px 50px;
+    gap: 30px;
+    margin-left: 400px;
+}
+
+.card div{
+    max-width: 150px;
+}
+.btn{
+    display: flex;
+    gap: 58px;
+}
+.btn button{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+}
+.btn button:hover{
+    background-color: #FFE52A;
+    transition:  height 1s ease-in-out, width 1s ease-in-out, background 1s ease-in-out;
+    transform: translateY(-3px);
+} 
